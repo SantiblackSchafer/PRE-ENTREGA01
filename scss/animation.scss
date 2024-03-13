@@ -29,11 +29,11 @@
             background-color: #007bff;
             }
         }
-    .container h2,
-    .container p {
-        opacity: 0;
-        transform: translateY(20px);
-        transition: opacity 0.8s ease, transform 0.8s ease;
+        .container h2,
+        .container p {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
             }
             
             .container h2,
