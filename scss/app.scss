@@ -1,6 +1,6 @@
-body{
+body {
     background-color: beige;
-    font-family:'Roboto Serif', serif;
+    font-family: 'Roboto Serif', serif;
 }
 
 header {
@@ -21,19 +21,44 @@ header {
 nav {
     float: right;
     margin-top: 10px;
-    ul{
+
+    ul {
         list-style: none;
-    margin: 0;
-    padding: 0;
+        margin: 0;
+        padding: 0;
     }
-    li{
+
+    li {
         display: inline;
-    margin-right: 20px;
+        margin-right: 20px;
     }
-    a{
+
+    a {
         text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 16px; 
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
     }
+
+    header {
+        padding: 5px 0;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
