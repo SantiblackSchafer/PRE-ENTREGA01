@@ -1,6 +1,6 @@
 body {
   background-color: beige;
-  font-family: "Roboto Serif", serif;
+  font-family: "Roboto Serif", sans-serif;
 }
 
 header {
@@ -13,6 +13,10 @@ header {
 #logo {
   float: left;
 }
+#logo img {
+  width: 100px;
+}
+
 nav {
   float: right;
   margin-top: 10px;
@@ -31,6 +35,25 @@ nav a {
   color: #fff;
   font-weight: bold;
   font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  header {
+    padding: 5px 0;
+  }
+  nav {
+    float: none;
+    text-align: center;
+    margin-top: 0;
+  }
+  li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
