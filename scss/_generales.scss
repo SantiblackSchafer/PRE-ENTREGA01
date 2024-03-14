@@ -1,0 +1,24 @@
+body {
+    font-family: 'Arial', sans-serif;
+    }
+    
+    header {
+    background-color: $primary-color;
+    
+    .navbar {
+        border-bottom: 2px solid $secondary-color;
+    
+        .navbar-brand {
+        color: white;
+        font-weight: bold;
+        }
+    
+        .nav-link {
+        color: white;
+    
+        &:hover {
+            text-decoration: underline;
+            }
+        }
+        }
+    }
