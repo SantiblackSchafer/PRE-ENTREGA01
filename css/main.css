@@ -1,69 +1,9 @@
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-header {
-  background-color: #007bff;
-}
-header .navbar {
-  border-bottom: 2px solid #6c757d;
-}
-header .navbar .navbar-brand {
-  color: white;
-  font-weight: bold;
-}
-header .navbar .nav-link {
-  color: white;
-}
-header .navbar .nav-link:hover {
-  text-decoration: underline;
-}
-
-.hero {
-  background-color: #007bff;
-  color: white;
-  text-align: center;
-  padding: 50px 0;
-}
-.hero h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-}
-.hero p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-.hero a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #6c757d;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-.hero a:hover {
-  background-color: #545b62;
-}
-
-footer {
-  background-color: #6c757d;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-}
-footer p {
-  margin-bottom: 15px;
-}
-footer img {
-  max-width: 30px;
-  margin-bottom: 15px;
-}
-
-@media only screen and (max-width: 768px) {
-  .products .product {
-    width: 100%;
-  }
-}
+@import url(/scss/_variables.scs);
+@import url(/scss/_base.scss);
+@import url(/scss/_header.scss);
+@import url(/scss/_hero.scss);
+@import url(/scss/_footer.scss);
+@import url(/scss/_responsive.scss);
 
 /*# sourceMappingURL=main.css.map */
