@@ -1,5 +1,5 @@
-@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
-@import url(/scss/_variables.scs);
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+@import url(/scss/_variables.scss);
 @import url(/scss/_base.scss);
 @import url(/scss/_header.scss);
 @import url(/scss/_hero.scss);
