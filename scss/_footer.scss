@@ -1,0 +1,13 @@
+footer {
+    background-color: $secondary-color;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    p {
+        margin-bottom: 15px;
+    }
+    img {
+        max-width: 30px;
+        margin-bottom: 15px;
+    }
+}

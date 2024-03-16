@@ -1,0 +1,25 @@
+.hero {
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+    a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: $secondary-color;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        &:hover {
+            background-color: darken($secondary-color, 10%);
+        }
+    }
+}

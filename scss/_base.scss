@@ -1,0 +1,10 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    color: $primary-color;
+    &:hover {
+        text-decoration: underline;
+    }
+}
