@@ -1,66 +1,81 @@
-$primary-color: #007bff;
-$secondary-color: #6c757d;
-
-body {
-    font-family: 'Arial', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-    color: $primary-color;
-    &:hover {
-        text-decoration: underline;
-    }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header {
-    background-color: $primary-color;
-    
-    .navbar {
-        border-bottom: 2px solid #6c757d;
-        
-        .navbar-brand {
-            color: white;
-            font-weight: bold;
-        }
-        
-        .nav-link {
-            color: white;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1em;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700;
 }
 
 .hero {
-    background-color: $primary-color;
-    color: white;
+    background-image: url('https://via.placeholder.com/1500x500');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
     text-align: center;
-    padding: 50px 0;
-    
-    h1 {
-        font-size: 2.5em;
-        margin-bottom: 10px;
-    }
-    
-    p {
-        font-size: 1.2em;
-        margin-bottom: 20px;
-    }
-    
-    a {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #6c757d;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        
-        &:hover {
-            background-color: darken(#6c757d, 10%);
-        }
-    }
 }
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
 
 @media only screen and (max-width: 768px) {
     .products .product {
